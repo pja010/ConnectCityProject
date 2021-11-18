@@ -1,0 +1,7 @@
+CSCI311 Project2 
+
+File: project.c project2.c Makefile cal.txt NA.txt OL.txt TG.txt SF.txt
+two different implementations of city connections algorithm.
+five different files to test
+
+How to run: Use Makefile to compile by typing $make in terminal. After compiling, run the program: ./project Inputfile Outputfile and ./project2 Inputfile Outputfile. The result of the program will store in the outputfile.
