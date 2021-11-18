@@ -6,4 +6,3 @@ five different files to test
 
 How to run: Use Makefile to compile by typing $make in terminal. After compiling, run the program: ./project Inputfile Outputfile and ./project2 Inputfile Outputfile. The result of the program will store in the outputfile.
 
-EM
