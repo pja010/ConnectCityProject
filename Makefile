@@ -12,3 +12,4 @@ project2: project2.c
 .PHONY: clean
 clean:
 	/bin/rm -rf $(EXECS)
+
