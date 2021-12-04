@@ -1,3 +1,14 @@
+/*
+ * connect_city.c -- program that   computes shortest set of edges in graph 
+*
+* Input: data file, each line      representing edge in graph, composed of edgeID, startNodeID, endNodeID, length.
+* 
+* Output: shortest set of connected edges.
+*
+* Reference:
+* https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
+*/
+
 #include <limits.h>
 #include <stdbool.h>
 #include <stdio.h>
