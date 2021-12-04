@@ -1,8 +1,22 @@
-CSCI311 Project2 
+#CSCI 311 Project 2 - Connecting a City
 
-File: project.c project2.c Makefile cal.txt NA.txt OL.txt TG.txt SF.txt
-two different implementations of city connections algorithm.
-five different files to test
+Jeffrey Cai, Emily Pecoraro, Per Astrom
 
-How to run: Use Makefile to compile by typing $make in terminal. After compiling, run the program: ./project Inputfile Outputfile and ./project2 Inputfile Outputfile. The result of the program will store in the outputfile.
+#Project files
+project.c project2.c Makefile cal.txt NA.txt OL.txt TG.txt SF.txt
+
+#Description
+Two different implementations of algorithm that finds the smallest graph connecting all roads in a city. Their performance can be tested on five different files, each describing a city's network of roads. Roads are represented by edges, their length by a weight, and their points of intersection by nodes.  
+
+#How to run Compile project in bash (or other terminal):
+```bash
+$make
+``` 
+Run the programs: 
+```bash
+./project 'Inputfile' 'Outputfile' 
+
+./project2 'Inputfile' 'Outputfile'. 
+```
+The result of the program will be stored in the specified outputfile (ex. output.txt).
 
