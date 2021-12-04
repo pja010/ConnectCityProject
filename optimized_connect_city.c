@@ -1,4 +1,8 @@
-// Reference: MIN Heap implementation: https://www.geeksforgeeks.org/binary-heap/
+/* optimized_connect_city.c -- improved versiona for performance
+ *
+ * Referece:
+ * https://www.geeksforgeeks.org/prims-mst-for-adjacency-list-representation-greedy-algo-6/?ref=lbp
+ */
 
 #include <limits.h>
 #include <stdio.h>
